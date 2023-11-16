@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-#config files
-appwriteConfig.js
-
 
 # Editor directories and files
 .vscode/*
