@@ -2,9 +2,7 @@ import React, {useState, useEffect} from 'react'
 import client, { databases, DATABASE_ID, COLLECTION_ID_MESSAGES } from '../appwriteConfig'
 import { ID, Query, Permission, Role} from 'appwrite';
 import Header from '../components/Header';
-import { useAuth } from '../utils/AuthContext';
-import {Trash2} from 'react-feather'
-
+import { useAuth } from '../utils/AuthContext'import {Trash2} from 'react-feather'
 
 const Room = () => {
     const [messageBody, setMessageBody] = useState('')
